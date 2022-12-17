@@ -1,0 +1,18 @@
+$primary: #9d1635;
+$success: rgb(68, 201, 7);
+
+$theme-colors: (
+  primary: $primary,
+  success: $success
+);
+
+#root {
+  background-color: #bad0f8;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+// (Required) Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";

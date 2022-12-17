@@ -1,0 +1,28 @@
+.gameContainer {
+    height: 95%;
+}
+
+.blankLetter {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    min-height: 40px;
+    min-width: 30px;
+    width: 5vw;
+    height: 5vh;
+    background-color: whitesmoke;
+    border: 1px solid #a8a5a5;
+}
+
+.rightLetter {
+    min-height: 40px;
+    min-width: 30px;
+    width: 5vw;
+    height: 5vh;
+    background-color: whitesmoke;
+    border: 1px solid #a8a5a5;
+}
+
+.playerName {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

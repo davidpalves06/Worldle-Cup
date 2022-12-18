@@ -15,8 +15,7 @@ docker build -t worldlecup .
 docker run -d --rm -p 5173:5173 --name worldlecup worldlecup
 ```
 
-After starting the docker container, just access (http://127.0.0.1:5173)
-You should now be able to see the web application.
+After starting the docker container, just access (http://127.0.0.1:5173).
 
 # Run using npm
 
@@ -28,4 +27,7 @@ npm install
 npm run dev
 ```
 
-After running this commands, just access (http://127.0.0.1:5173)
+After running this commands, just access (http://127.0.0.1:5173).
+
+# Prints
+
